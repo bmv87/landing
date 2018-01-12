@@ -1,7 +1,7 @@
 .header {
     &__top {
-        background-color: #f0f2f4;
-        border-bottom: 1px solid #e2e2e2;
+        background-color: $bg-clr-header-top;
+        border-bottom: 1px solid $brdr-clr-header-top;
     }
     &__bottom {
         display: flex;
@@ -20,15 +20,15 @@
     display: inline-block;
     vertical-align: top;
     padding: 10px 10px 8px;
-    color: #424242;
+    color: $ff-clr-contact;
     transition: 0.3s;
     &:hover {
-        color: lighten($color: #424242, $amount: 20%);
+        color: lighten( $ff-clr-contact, 20%);
     }
     &:first-child {
         margin-right: 8px;
         padding-right: 18px;
-        border-right: 1px solid #e2e2e2;
+        border-right: 1px solid $brdr-clr-contact;
     }
     &__icon {
         margin-right: 7px;
@@ -48,6 +48,6 @@
     margin: 7px 0;
     padding: 5px 8px 1px;
     border-radius: 3px;
-    background-color: #1287bf;
-    color: #fff;
+    background-color: $bg-clr-header-facebook-icon;
+    color: $ff-clr-header-facebook-icon;
 }

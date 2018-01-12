@@ -10,11 +10,11 @@
         font-family: $ff-main-bold;
         text-decoration: none;
         text-transform: capitalize;
-        color: #424242;
+        color: $ff-clr-nav-link;
         transition: 0.3s;
         &:hover,
         &--active {
-            color: #de2b24;
+            color: $ff-clr-nav-link-active;
         }
         &:after {
             content: '';
@@ -24,7 +24,7 @@
             height: 5px;
             margin-left: 15px;
             border-radius: 50%;
-            background: #424242;
+            background: $bg-clr-nav-link-after;
         }
         &:last-child:after {
             display: none;

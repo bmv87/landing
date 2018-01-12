@@ -15,12 +15,12 @@
         margin: 0 0 12px 0;
         font-size: 1.375rem;
         font-family: $ff-main-bold;
-        color: #424242;
+        color: $ff-clr-about-header;
     }
     &__description {
         margin-top: 0;
         font-size: 0.875rem;
         line-height: 1.5;
-        color: #5c5c5c;
+        color: $ff-clr-about-dscrptn;
     }
 }

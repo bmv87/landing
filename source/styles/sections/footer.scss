@@ -1,0 +1,71 @@
+.footer {
+    &__top {
+        padding: 88px 0 83px;
+        text-align: center;
+        background: $bg-clr-footer-top;
+    }
+    &__bottom {
+        padding: 26px;
+        text-align: center;
+        background: $bg-clr-footer-bottom;
+    }
+    &__title {
+        margin-bottom: 20px;
+        font-size: 1.8125rem;
+        color: $ff-clr-footer-title;
+        font-family: $ff-main-bold;
+    }
+    &__social {
+        margin-left: 20px;
+        padding: 15px;
+        border: 1px solid $brdr-clr-social;
+        border-radius: 3px;
+        &:hover {
+            border: 1px solid $brdr-clr-social-hover;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__links {
+        margin-bottom: 35px;
+        color: $ff-clr-footer-link;
+        .fa {
+            color: $ff-clr-footer-link;
+        }
+    }
+    &__text {
+        margin-bottom: 30px;
+        font-size: 0.875rem;
+        color: $ff-clr-footer-text;
+    }
+    &__field {
+        width: 67%;
+        margin: 0 auto 27px;
+    }
+    &__input {
+        width: 100%;
+        padding: 20px;
+        font-size: 0.875rem;
+        border: 0;
+        color: $ff-clr-footer-input;
+        background: $bg-clr-approach-item;
+    }
+    .button {
+        border: 2px solid $brdr-clr-footer-btn;
+        padding: 15px 37px;
+        box-sizing: border-box;
+        font-size: 1.0625rem;
+        font-family: $ff-main-bold;
+        // background-color: initial;
+        background-color: transparent;
+        color: $ff-clr-footer-btn;
+        &:hover {
+            border: 2px solid $brdr-clr-footer-btn-hover;
+        }
+    }
+    &__copy {
+        font-size: 0.875rem;
+        color: $ff-clr-footer-copy;
+    }
+}

@@ -1,6 +1,6 @@
 .approach {
     padding: 86px 0 94px;
-    background-color: #f3f3f3;
+    background-color: $bg-clr-section-approach;
     &__list {
         margin: 0;
         padding: 0;
@@ -9,9 +9,9 @@
     &__item {
         margin-bottom: 40px;
         border-radius: 5px;
-        box-shadow: -1px -1px 10px 1px rgba(214, 214, 214, 1);
-        color: #424242;
-        background: #fff;
+        box-shadow: -1px -1px 10px 1px $shadow-clr-approach-item;
+        color: $ff-clr-approach-item;
+        background: $bg-clr-approach-item;
         &:nth-child(2n) {
             display: flex;
             flex-direction: row-reverse;
@@ -51,11 +51,11 @@
         height: 103px;
         padding-top: 10px;
         border-radius: 5px;
-        border: 2px solid #fff;
+        border: 2px solid $brdr-clr-step;
         text-align: center;
         font-size: 1.25rem;
-        background-color: #de2b24;
-        color: #fff;
+        background-color: $bg-clr-step;
+        color: $ff-clr-step;
         &:before {
             content: counter(count);
             counter-increment: count;
@@ -63,7 +63,7 @@
             font-family: $ff-steps;
             font-size: 3rem;
             line-height: 1;
-            color: #fff;
+            color: $ff-clr-step;
         }
     }
     &__title {

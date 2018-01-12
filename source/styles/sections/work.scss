@@ -1,7 +1,7 @@
 .work {
     padding: 110px 0;
-    background-color: #de2b24;
-    color: #fff;
+    background-color: $bg-clr-work;
+    color: $ff-clr-work;
     &__list {
         display: flex;
         flex-wrap: wrap;
@@ -10,15 +10,15 @@
     }
     .title--with-bottom-line {
         &:after {
-            background: #fff;
+            background: $bg-clr-work-title;
         }
     }
     &__item {
         width: 256px;
         height: 255px;
         font-weight: bold;
-        color: #ffffff;
-        background: #f35e59;
+        color: $ff-clr-work-item;
+        background: $bg-clr-work-item;
         &--name {
             position: relative;
             padding: 130px 40px 75px 40px;
