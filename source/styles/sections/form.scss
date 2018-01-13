@@ -2,6 +2,9 @@
     padding: 100px 0 110px 0;
     color: $ff-clr-section-form;
     background-color: $bg-clr-section-form;
+    @media (max-width: 810px) {
+        padding: 50px 0 55px 0;
+    }
     .title {
         margin-bottom: 12px;
     }
@@ -20,6 +23,8 @@
         border-radius: 50%;
     }
     .arrow-down {
+        padding: 20px;
+        color: $ff-clr-form-arrow-down-btn;
         @include centerer-xy();
         .fa {
             font-size: 2.5rem;
@@ -38,6 +43,10 @@
     background-color: $bg-clr-form;
     &-container {
         padding-top: 30px;
+    }
+    @media (max-width: 810px) {
+        width: 90%;
+        padding: 25px;
     }
     &:before {
         @include centerer-x();
@@ -84,6 +93,9 @@
         font-size: 0.875rem;
         &:focus {
             box-shadow: 0 0 8px 1px $shadow-clr-input-focus;
+        }
+        @media (max-width: 660px) {
+            width: 90%;
         }
     }
     .button {

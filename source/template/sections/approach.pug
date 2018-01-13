@@ -1,52 +1,9 @@
+include ./mixins.pug
 section.approach
   .container
     .title.title--with-bottom-line
-      h2.title.title__header Our approach
+      h2.title__header Our approach
       .title__text Check Our approaches step by step ( how we do it )
-
+  
   ul.approach__list
-    li.approach__item
-      .approach__image
-        img.approach__picture(src="../../images/step-1.jpg" alt="picture")
-        .approach__step step
-      .approach__text
-        .approach__title Step 1 : Heading Here
-        p.approach__description. 
-          Lorem nisi laborum officia Lorem esse aliqua aliquip anim deserunt adipisicing pariatur consequat. 
-          Tempor Lorem nulla dolor est proident irure amet esse nostrud tempor deserunt Lorem. Incididunt 
-          fugiat pariatur deserunt laboris veniam aliquip commodo consectetur veniam. 
-
-    li.approach__item
-      .approach__image
-        img.approach__picture(src="../../images/step-2.jpg" alt="picture")
-        .approach__step step
-      .approach__text
-        .approach__title Step 2 : Heading Here
-        p.approach__description. 
-          Lorem nisi laborum officia Lorem esse aliqua aliquip anim deserunt adipisicing pariatur consequat. 
-          Tempor Lorem nulla dolor est proident irure amet esse nostrud tempor deserunt Lorem. Incididunt 
-          fugiat pariatur deserunt laboris veniam aliquip commodo consectetur veniam. 
-    
-    li.approach__item
-      .approach__image
-        img.approach__picture(src="../../images/step-3.jpg" alt="picture")
-        .approach__step step
-      .approach__text
-        .approach__title Step 3 : Heading Here
-        p.approach__description. 
-          Lorem nisi laborum officia Lorem esse aliqua aliquip anim deserunt adipisicing pariatur consequat. 
-          Tempor Lorem nulla dolor est proident irure amet esse nostrud tempor deserunt Lorem. Incididunt 
-          fugiat pariatur deserunt laboris veniam aliquip commodo consectetur veniam.
-    
-    li.approach__item
-      .approach__image
-        img.approach__picture(src="../../images/step-4.jpg" alt="picture")
-        .approach__step step
-      .approach__text
-        .approach__title Step 4 : Heading Here
-        p.approach__description. 
-          Lorem nisi laborum officia Lorem esse aliqua aliquip anim deserunt adipisicing pariatur consequat. 
-          Tempor Lorem nulla dolor est proident irure amet esse nostrud tempor deserunt Lorem. Incididunt 
-          fugiat pariatur deserunt laboris veniam aliquip commodo consectetur veniam.
-
-
+    +approachItem(4)

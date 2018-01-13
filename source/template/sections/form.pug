@@ -1,10 +1,10 @@
 section.form-section
   .container
     .title
-      h2.title.title__header Get Your Free Facebook Analysits Now
+      h2.title__header Get Your Free Facebook Analysits Now
       .title__text Enter your details below
 
-    .btn-down: a.arrow-down: i.fa.fa-angle-down
+    .btn-down: a.arrow-down(href="#"): i.fa.fa-angle-down
 
     .form-container.is-hidden
       form(method="post" action="#").form
@@ -14,8 +14,8 @@ section.form-section
           for your business + Learn How To Use Google and Facebook to get 5000% ROI or more
 
         .form__fields
-          input.form__input(type="text" placeholder="Your Name")
-          input.form__input(type="text" placeholder="Contact Number")
-          input.form__input(type="text" placeholder="Contact Name")
+          input.form__input(type="text" placeholder="Your Name" required)
+          input.form__input(type="email" placeholder="Contact email" required)
+          input.form__input(type="tel" placeholder="Phone number" required pattern="[+(]?\\d*[)-]?([(]?\\d*[-)]?)*")
 
         button(type="submit").button.button--text-uppercase.button--red Submit now
